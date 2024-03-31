@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10% 0 0 0;
+}
+
+.point-strike-container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.scrambled-word{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: solid 1px black;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+
+}
+
+.form-container > form > input,
+button {
+    font-size: 15px;
+    padding: 6px;
+}
+
+.form-container > form > button,
+.restart-btn {
+    background-color: rgb(189, 223, 189);
+    border-color: rgb(189, 223, 189);
+}
+
+.pass-btn {
+    margin-top: 10px;
+    background-color: rgb(244, 196, 126);
+    border-color: rgb(244, 196, 126);
+}
+
+
+/* .correct-msg-container,
+ */
+.msg-container {
+    padding: 1px 15px;
+    margin-bottom: 15px;
+}
+
+.incorrect-msg-container,
+.game-over-msg-container{
+    background-color: rgb(255, 194, 194);   
+}
+
+.correct-msg-container,
+.win-msg-container {
+    background-color: rgb(189, 223, 189);   
+}
+
